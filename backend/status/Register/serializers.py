@@ -12,7 +12,7 @@ class UserSerializer(serializers.ModelSerializer):
             max_length=32,
             validators=[UniqueValidator(queryset=User.objects.all(), message='Username Already Taken')]
             )
-    password = serializers.CharField(min_length=6, max_length=100,
+    password = serializers.CharField(min_length=6, max_length=100, style={"input_type": "password"}, 
             write_only=True)
 
     def create(self, validated_data):
