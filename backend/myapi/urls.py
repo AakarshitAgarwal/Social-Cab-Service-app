@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url('NGO/', include('status.api.urls')),
     url('Register/', include('status.Register.urls')),
+    url('Login/', include('status.Login.urls')), 
 ]
