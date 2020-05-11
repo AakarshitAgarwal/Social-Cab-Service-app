@@ -7,3 +7,4 @@ Pillow==7.1.2
 PyJWT==1.7.1
 pytz==2019.3
 wrapt==1.11.2
+djoser
