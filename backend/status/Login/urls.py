@@ -13,12 +13,10 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
-from django.urls import include, path
+
 from django.conf.urls import url
+from .views import TokenCreateView
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    url('NGO/', include('status.api.urls')),
-    url('Register/', include('status.Register.urls')),
-    url('Login/', include('status.Login.urls')), 
+    url(r'^$', TokenCreateView.as_view(), name='account-create'),
 ]
