@@ -22,4 +22,4 @@ Register/- User registration with Username(unique), Email, Password
 Register/Edit/username/- to get the detail of specific user or to edit details.
 
 
-Login part is not done yet.
+Login/- Provide the username and password to generate a token.
