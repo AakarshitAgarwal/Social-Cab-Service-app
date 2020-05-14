@@ -1,10 +1,12 @@
 General instruction
 1. Clone the backend dir project
 2. install the requirements using 
-pip install -r requirements.txt
-4. python manage.py createsuperuser and login to admin panel.
-3. Apply migrations 
-4. python manage.py runserver
+    pip install -r requirements.txt
+3. python manage.py createsuperuser and login to admin panel.
+4. Apply migrations using the following commands:
+    python manage.py makemigrations
+    python manage.py migrate
+5. python manage.py runserver
 
 
 
