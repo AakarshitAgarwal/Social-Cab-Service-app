@@ -12,6 +12,6 @@ urlpatterns = [
     path('create/', TripCreateView.as_view()),
     path('<pk>/', TripDetailView.as_view()),
     
-    path('create', LocationCreateView.as_view()),
-    path('<pk>', LocationRetreiveView.as_view())
+    path('lcreate', LocationCreateView.as_view()),
+    path('<pk>/', LocationRetreiveView.as_view())
 ]

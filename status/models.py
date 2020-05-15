@@ -29,4 +29,4 @@ class NGO(models.Model):
     objects = NGOManager()
 
     def __str__(self):
-        return '{}{}'.format(self.NGO_id, self.Name)
+        return '{}{}'.format(self.NGO_id, self.name)
