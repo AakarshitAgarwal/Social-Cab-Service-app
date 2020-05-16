@@ -1,3 +1,0 @@
-"""
-Main Configuration file
-"""
