@@ -15,7 +15,7 @@ Base Url:http://127.0.0.1:8000/
 admin/-for admin panel
 
 
-NGO/-for list of all NGOs with details and to add the details of new NGOs
+NGO/-for list of all NGGOs with details and to add the details of new NGOs
 NGO/Names/- list of NGOs by their Names
 NGO/id/- to get the detail of specific NGO or to delete that NGO or to edit the details
 
